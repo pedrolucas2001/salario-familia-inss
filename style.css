@@ -1,0 +1,76 @@
+
+/* cor do botao #02acac */
+
+*{
+    margin:0%;
+    padding: 0%;
+}
+
+#pagina{
+    width: 50%;
+    height: auto;
+    margin: 0px auto;
+}
+
+header{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-image: url(images/salario-familia.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+main{
+    width: 95%;
+    margin: 0px auto;
+    margin-bottom: 100px;
+}
+#inputs{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 0px;
+   
+}
+
+input{
+    height: 50px;
+    font-size: 22px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+#salario{
+    border-bottom: 2px solid gray;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    height: 200px;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+#btnCalcular{
+    width: 35%;
+    height: 60px;
+    background-color: #02acac;
+    margin: 20px auto;
+    border-radius: 10px;
+    border-bottom: 4px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: white;
+    
+}
